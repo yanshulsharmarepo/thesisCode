@@ -1,0 +1,9 @@
+program,execution_requirement_ms,steady_state_temp_C
+Bodytrack,3824,85
+Canneal,1007,80
+Dedup,6455,91
+Fluid,4090,81
+x264,1203,85
+Swaptions,4535,76
+Streamcluster,6156,68
+Freqmine,11082,84

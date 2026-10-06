@@ -1,0 +1,1962 @@
+{
+  "uf": 1,
+  "options": {
+    "inputs": "./inputs",
+    "ufs": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1
+    ],
+    "maxCases": 50,
+    "slots": 100000,
+    "ooo": 4,
+    "ambient": 25,
+    "B": 0.005,
+    "gamma": 0.55
+  },
+  "summary": {
+    "none (no TA, no EA)": {
+      "SRat_%": {
+        "mean": 100,
+        "std": 0
+      },
+      "ATOC_C": {
+        "mean": 48.03902698140883,
+        "std": 4.450607913964981
+      },
+      "PeakTemp_C": {
+        "mean": 88.6868512745627,
+        "std": 3.1372403070367576
+      },
+      "NEC": {
+        "mean": 1,
+        "std": 0
+      },
+      "CSO_us_per_slot": {
+        "mean": 0.13422784,
+        "std": 0.010164714023247283
+      }
+    },
+    "TA only": {
+      "SRat_%": {
+        "mean": 100,
+        "std": 0
+      },
+      "ATOC_C": {
+        "mean": 47.61531507208019,
+        "std": 4.3455425455631715
+      },
+      "PeakTemp_C": {
+        "mean": 88.05010678991908,
+        "std": 3.101167976418009
+      },
+      "NEC": {
+        "mean": 1,
+        "std": 0
+      },
+      "CSO_us_per_slot": {
+        "mean": 0.13422784,
+        "std": 0.010164714023247283
+      }
+    },
+    "EA only": {
+      "SRat_%": {
+        "mean": 100,
+        "std": 0
+      },
+      "ATOC_C": {
+        "mean": 56.93250042428306,
+        "std": 3.859649886369453
+      },
+      "PeakTemp_C": {
+        "mean": 87.45309241601066,
+        "std": 3.38572844776637
+      },
+      "NEC": {
+        "mean": 0.7377468544114155,
+        "std": 0.069274700438552
+      },
+      "CSO_us_per_slot": {
+        "mean": 0.13548543999999996,
+        "std": 0.011339805536533687
+      }
+    },
+    "ETA-HP (TA+EA)": {
+      "SRat_%": {
+        "mean": 100,
+        "std": 0
+      },
+      "ATOC_C": {
+        "mean": 56.40045047011485,
+        "std": 3.570326251794218
+      },
+      "PeakTemp_C": {
+        "mean": 87.3318984554158,
+        "std": 3.595201518622515
+      },
+      "NEC": {
+        "mean": 0.7377468544114155,
+        "std": 0.069274700438552
+      },
+      "CSO_us_per_slot": {
+        "mean": 0.13548543999999996,
+        "std": 0.011339805536533687
+      }
+    }
+  },
+  "cases": [
+    {
+      "case": "case_00.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 47.86224312374671,
+          "PeakTemp_C": 86.09160678361891,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.86129868463675,
+          "PeakTemp_C": 84.72842320276662,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.07370433974667,
+          "PeakTemp_C": 84.66938128622523,
+          "NEC": 0.726747415192936,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 58.15715782569005,
+          "PeakTemp_C": 84.72842320276662,
+          "NEC": 0.726747415192936,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_01.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.27656529704154,
+          "PeakTemp_C": 93.8706904731327,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 47.27953196174091,
+          "PeakTemp_C": 94.70111937211065,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 54.885106575975826,
+          "PeakTemp_C": 93.8706904731327,
+          "NEC": 0.7517787896999523,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 54.130737667783926,
+          "PeakTemp_C": 94.70111937211065,
+          "NEC": 0.7517787896999523,
+          "CSO_us_per_slot": 0.15091200000000002
+        }
+      }
+    },
+    {
+      "case": "case_02.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.87531521678759,
+          "PeakTemp_C": 89.70884302206517,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 51.36704489573045,
+          "PeakTemp_C": 90.23163390880916,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 61.50928827072635,
+          "PeakTemp_C": 89.70884302206517,
+          "NEC": 0.7567560527689603,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.83593883624656,
+          "PeakTemp_C": 90.23163390880916,
+          "NEC": 0.7567560527689603,
+          "CSO_us_per_slot": 0.15091200000000002
+        }
+      }
+    },
+    {
+      "case": "case_03.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.021716002166954,
+          "PeakTemp_C": 90.75503920323433,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 44.27779853239314,
+          "PeakTemp_C": 90.75503920323433,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 49.348221688913924,
+          "PeakTemp_C": 90.75503920323433,
+          "NEC": 0.767828096194355,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.77850262700195,
+          "PeakTemp_C": 90.75503920323433,
+          "NEC": 0.767828096194355,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_04.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.29865810258032,
+          "PeakTemp_C": 85.95957161565718,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.205307007051495,
+          "PeakTemp_C": 85.8023787612396,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 57.13876497720048,
+          "PeakTemp_C": 83.90655809190156,
+          "NEC": 0.7537110609587977,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 57.18342248582017,
+          "PeakTemp_C": 83.90655809190156,
+          "NEC": 0.7537110609587977,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_05.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.012370110049716,
+          "PeakTemp_C": 87.02347763375184,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.11978403605246,
+          "PeakTemp_C": 87.02347763375184,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.67084190341646,
+          "PeakTemp_C": 87.02347763375184,
+          "NEC": 0.8109168541164645,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.77245969138577,
+          "PeakTemp_C": 87.02347763375184,
+          "NEC": 0.8109168541164645,
+          "CSO_us_per_slot": 0.15091200000000002
+        }
+      }
+    },
+    {
+      "case": "case_06.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.62989374777125,
+          "PeakTemp_C": 94.10826572915595,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.41291384192976,
+          "PeakTemp_C": 90.23763753527905,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.72080148126455,
+          "PeakTemp_C": 88.11952199646714,
+          "NEC": 0.777037603349357,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.21763040661061,
+          "PeakTemp_C": 87.93123328354207,
+          "NEC": 0.777037603349357,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_07.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.36325263504709,
+          "PeakTemp_C": 89.72025712893445,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.08553019536394,
+          "PeakTemp_C": 89.29545170302947,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 55.915469657721175,
+          "PeakTemp_C": 89.72025712893445,
+          "NEC": 0.853284095285424,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 55.206476176998144,
+          "PeakTemp_C": 89.29545170302947,
+          "NEC": 0.853284095285424,
+          "CSO_us_per_slot": 0.13833600000000001
+        }
+      }
+    },
+    {
+      "case": "case_08.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 49.33182529625848,
+          "PeakTemp_C": 87.36118572979368,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 49.14133533997676,
+          "PeakTemp_C": 87.28570082089372,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 58.45295948683381,
+          "PeakTemp_C": 87.36118572979368,
+          "NEC": 0.726745627553275,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 58.32360060550208,
+          "PeakTemp_C": 87.28570082089372,
+          "NEC": 0.726745627553275,
+          "CSO_us_per_slot": 0.13833600000000001
+        }
+      }
+    },
+    {
+      "case": "case_09.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.00706638437852,
+          "PeakTemp_C": 89.02643380922262,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.87195542225812,
+          "PeakTemp_C": 86.91536073667712,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.386045460980505,
+          "PeakTemp_C": 86.91536073667712,
+          "NEC": 0.8083712555595658,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 57.89996197141326,
+          "PeakTemp_C": 86.91536073667712,
+          "NEC": 0.8083712555595658,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_10.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 61.553654484444095,
+          "PeakTemp_C": 96.10862779445202,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.159296
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 60.24226845187517,
+          "PeakTemp_C": 96.39865368094945,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.159296
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 63.04652320290386,
+          "PeakTemp_C": 96.10862779445202,
+          "NEC": 0.9131548143134645,
+          "CSO_us_per_slot": 0.159296
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 61.81668909947593,
+          "PeakTemp_C": 96.39865368094945,
+          "NEC": 0.9131548143134645,
+          "CSO_us_per_slot": 0.159296
+        }
+      }
+    },
+    {
+      "case": "case_11.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.50736002113396,
+          "PeakTemp_C": 85.5506246640849,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.144624
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.475541036107984,
+          "PeakTemp_C": 85.47388382677428,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.144624
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 61.09845535360285,
+          "PeakTemp_C": 85.5506246640849,
+          "NEC": 0.7645006914097743,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 60.68526399642642,
+          "PeakTemp_C": 85.47388382677428,
+          "NEC": 0.7645006914097743,
+          "CSO_us_per_slot": 0.15091200000000002
+        }
+      }
+    },
+    {
+      "case": "case_12.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.95898677283763,
+          "PeakTemp_C": 90.90279758071283,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.83816986713327,
+          "PeakTemp_C": 90.49628716027416,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 61.95830805447814,
+          "PeakTemp_C": 89.96063128922204,
+          "NEC": 0.760365420024752,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 61.47645016218982,
+          "PeakTemp_C": 89.96063128922204,
+          "NEC": 0.760365420024752,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_13.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 40.410524133203516,
+          "PeakTemp_C": 79.65449911268088,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 41.33131214183242,
+          "PeakTemp_C": 80.95263349289182,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.28577638593757,
+          "PeakTemp_C": 78.61350218090985,
+          "NEC": 0.6559715502595921,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 51.607083725821944,
+          "PeakTemp_C": 77.37939996501537,
+          "NEC": 0.6559715502595921,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_14.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.594542308589816,
+          "PeakTemp_C": 84.67628840139648,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.7754929302966,
+          "PeakTemp_C": 82.6470593103676,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 57.81648830376695,
+          "PeakTemp_C": 84.67628840139648,
+          "NEC": 0.7963087485843714,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 58.22818153299811,
+          "PeakTemp_C": 82.6470593103676,
+          "NEC": 0.7963087485843714,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_15.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 44.32216557144617,
+          "PeakTemp_C": 87.78919794780502,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 44.170763229501105,
+          "PeakTemp_C": 86.77541642761778,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.76422515953188,
+          "PeakTemp_C": 86.77541642761778,
+          "NEC": 0.6819510940073014,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.44562805501194,
+          "PeakTemp_C": 86.77541642761778,
+          "NEC": 0.6819510940073014,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_16.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 51.844213702378326,
+          "PeakTemp_C": 87.3901308549737,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 51.33093137665848,
+          "PeakTemp_C": 87.123010475841,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 60.170760950202244,
+          "PeakTemp_C": 86.55544188013349,
+          "NEC": 0.7950208135543699,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.68432178680065,
+          "PeakTemp_C": 86.66046410820198,
+          "NEC": 0.7950208135543699,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_17.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 42.47286692952515,
+          "PeakTemp_C": 88.66017392079313,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 41.571154616072086,
+          "PeakTemp_C": 89.37539110358706,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 51.55343914506531,
+          "PeakTemp_C": 88.66017392079313,
+          "NEC": 0.6409318492561972,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.17749379717914,
+          "PeakTemp_C": 89.37539110358706,
+          "NEC": 0.6409318492561972,
+          "CSO_us_per_slot": 0.13833600000000001
+        }
+      }
+    },
+    {
+      "case": "case_18.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.15069532332378,
+          "PeakTemp_C": 88.6003907725808,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.083278632863426,
+          "PeakTemp_C": 87.13224440273356,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 62.874917386062414,
+          "PeakTemp_C": 83.53955333335792,
+          "NEC": 0.6621279814946179,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 60.83076101394176,
+          "PeakTemp_C": 83.13704757943295,
+          "NEC": 0.6621279814946179,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_19.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 49.90401645518389,
+          "PeakTemp_C": 90.71526160655823,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.01532719772309,
+          "PeakTemp_C": 89.4022382178294,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.09979254732977,
+          "PeakTemp_C": 86.56547363274294,
+          "NEC": 0.7676625058068379,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 56.63551538694614,
+          "PeakTemp_C": 86.96265628351127,
+          "NEC": 0.7676625058068379,
+          "CSO_us_per_slot": 0.13833600000000001
+        }
+      }
+    },
+    {
+      "case": "case_20.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.369569397824336,
+          "PeakTemp_C": 89.00663571135696,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 47.82073240836956,
+          "PeakTemp_C": 89.00663571135696,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.76132603499316,
+          "PeakTemp_C": 89.00663571135696,
+          "NEC": 0.8211361733946003,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.21611922043717,
+          "PeakTemp_C": 89.00663571135696,
+          "NEC": 0.8211361733946003,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_21.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.003261879353424,
+          "PeakTemp_C": 91.77853889148281,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.14672
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.93750028020986,
+          "PeakTemp_C": 90.9007217368281,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.14672
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 62.380913773672965,
+          "PeakTemp_C": 90.5502975530766,
+          "NEC": 0.7509218033816901,
+          "CSO_us_per_slot": 0.14672
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 60.59542298024689,
+          "PeakTemp_C": 90.9007217368281,
+          "NEC": 0.7509218033816901,
+          "CSO_us_per_slot": 0.14672
+        }
+      }
+    },
+    {
+      "case": "case_22.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.70300792855207,
+          "PeakTemp_C": 91.01661801496756,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.60017138671864,
+          "PeakTemp_C": 91.01661801496756,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 65.91371417112153,
+          "PeakTemp_C": 91.01661801496756,
+          "NEC": 0.7256801686308005,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 66.09757324477609,
+          "PeakTemp_C": 91.01661801496756,
+          "NEC": 0.7256801686308005,
+          "CSO_us_per_slot": 0.15091200000000002
+        }
+      }
+    },
+    {
+      "case": "case_23.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.678085422768945,
+          "PeakTemp_C": 85.20467121587075,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.144624
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.90306188231997,
+          "PeakTemp_C": 84.16283973955598,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.144624
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.60013734890333,
+          "PeakTemp_C": 83.85836814889228,
+          "NEC": 0.7209807869469399,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.6768902700405,
+          "PeakTemp_C": 83.57945627919455,
+          "NEC": 0.7209807869469399,
+          "CSO_us_per_slot": 0.15091200000000002
+        }
+      }
+    },
+    {
+      "case": "case_24.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 56.183523578436876,
+          "PeakTemp_C": 91.6046062105014,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.144624
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 56.51157914766106,
+          "PeakTemp_C": 89.63984737222118,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.144624
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 60.42140738209789,
+          "PeakTemp_C": 90.4769707307576,
+          "NEC": 0.8549147014439414,
+          "CSO_us_per_slot": 0.144624
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 60.55761887016835,
+          "PeakTemp_C": 89.63984737222118,
+          "NEC": 0.8549147014439414,
+          "CSO_us_per_slot": 0.144624
+        }
+      }
+    },
+    {
+      "case": "case_25.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.892261589644264,
+          "PeakTemp_C": 88.39293825322673,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.132048
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.45323172441472,
+          "PeakTemp_C": 88.40048234450727,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.132048
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 58.17109735349048,
+          "PeakTemp_C": 88.39293825322673,
+          "NEC": 0.677081428551448,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 57.059967541064744,
+          "PeakTemp_C": 88.40048234450727,
+          "NEC": 0.677081428551448,
+          "CSO_us_per_slot": 0.13833600000000001
+        }
+      }
+    },
+    {
+      "case": "case_26.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 42.35583819518577,
+          "PeakTemp_C": 86.2122421617561,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 43.34849194168824,
+          "PeakTemp_C": 84.5646180397331,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 51.81408265990638,
+          "PeakTemp_C": 81.98121372756307,
+          "NEC": 0.742399509446748,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.37077181330633,
+          "PeakTemp_C": 81.7642138632811,
+          "NEC": 0.742399509446748,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_27.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.316801630225065,
+          "PeakTemp_C": 91.36247039988854,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 44.73559259067693,
+          "PeakTemp_C": 90.46679484515067,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 55.34495146166671,
+          "PeakTemp_C": 90.29715651177749,
+          "NEC": 0.6743263558878931,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 54.85036749393269,
+          "PeakTemp_C": 90.46679484515067,
+          "NEC": 0.6743263558878931,
+          "CSO_us_per_slot": 0.13833600000000001
+        }
+      }
+    },
+    {
+      "case": "case_28.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.69736077680172,
+          "PeakTemp_C": 89.58783804400798,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.498639676957524,
+          "PeakTemp_C": 87.36869316579275,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 57.02651129976814,
+          "PeakTemp_C": 86.3611084600086,
+          "NEC": 0.7590967592062783,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 56.699033649612,
+          "PeakTemp_C": 85.51307135703398,
+          "NEC": 0.7590967592062783,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_29.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.382858649914475,
+          "PeakTemp_C": 83.61451623959094,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.144624
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.01669871764816,
+          "PeakTemp_C": 82.88732770205884,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.144624
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.47158567073185,
+          "PeakTemp_C": 83.61451623959094,
+          "NEC": 0.7697682651109424,
+          "CSO_us_per_slot": 0.144624
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.0715793012713,
+          "PeakTemp_C": 82.88732770205884,
+          "NEC": 0.7697682651109424,
+          "CSO_us_per_slot": 0.144624
+        }
+      }
+    },
+    {
+      "case": "case_30.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.211281050871996,
+          "PeakTemp_C": 92.95097777150261,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 47.834679023585224,
+          "PeakTemp_C": 92.92672043681638,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 60.73668542526809,
+          "PeakTemp_C": 92.95097777150261,
+          "NEC": 0.7032258211590183,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 58.06109096701781,
+          "PeakTemp_C": 92.92672043681638,
+          "NEC": 0.7032258211590183,
+          "CSO_us_per_slot": 0.13833600000000001
+        }
+      }
+    },
+    {
+      "case": "case_31.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 51.59851241252409,
+          "PeakTemp_C": 87.50366008547049,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.1572
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.187957674603894,
+          "PeakTemp_C": 86.77947178759439,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.1572
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.235558195858204,
+          "PeakTemp_C": 87.50366008547049,
+          "NEC": 0.7813264398597556,
+          "CSO_us_per_slot": 0.16348800000000002
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 56.978003511378695,
+          "PeakTemp_C": 86.77947178759439,
+          "NEC": 0.7813264398597556,
+          "CSO_us_per_slot": 0.16348800000000002
+        }
+      }
+    },
+    {
+      "case": "case_32.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 43.20841980724499,
+          "PeakTemp_C": 87.81501503334485,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.132048
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 42.71848139298325,
+          "PeakTemp_C": 89.48813681236213,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.132048
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 58.58526024622446,
+          "PeakTemp_C": 87.81501503334485,
+          "NEC": 0.5868149030543246,
+          "CSO_us_per_slot": 0.13833600000000001
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 58.434741728533545,
+          "PeakTemp_C": 89.48813681236213,
+          "NEC": 0.5868149030543246,
+          "CSO_us_per_slot": 0.13833600000000001
+        }
+      }
+    },
+    {
+      "case": "case_33.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.20570444833408,
+          "PeakTemp_C": 86.54474024878567,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.134144
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.42696082605721,
+          "PeakTemp_C": 86.73711710650709,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.134144
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 54.65965565479816,
+          "PeakTemp_C": 86.54474024878567,
+          "NEC": 0.727773418815642,
+          "CSO_us_per_slot": 0.134144
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 55.68511795116339,
+          "PeakTemp_C": 86.73711710650709,
+          "NEC": 0.727773418815642,
+          "CSO_us_per_slot": 0.134144
+        }
+      }
+    },
+    {
+      "case": "case_34.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 43.29628995771938,
+          "PeakTemp_C": 91.16950526104168,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 43.48549290549351,
+          "PeakTemp_C": 90.35351144289591,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.4462669242073,
+          "PeakTemp_C": 89.4201975799237,
+          "NEC": 0.7210410781473009,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.458543689221756,
+          "PeakTemp_C": 89.06982049974054,
+          "NEC": 0.7210410781473009,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_35.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 49.05829372747029,
+          "PeakTemp_C": 89.48040425953259,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.144624
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.836307231751476,
+          "PeakTemp_C": 89.66452068254736,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.144624
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.84658637170057,
+          "PeakTemp_C": 89.48040425953259,
+          "NEC": 0.7055672849833355,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 60.15956961335062,
+          "PeakTemp_C": 89.66452068254736,
+          "NEC": 0.7055672849833355,
+          "CSO_us_per_slot": 0.15091200000000002
+        }
+      }
+    },
+    {
+      "case": "case_36.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 49.17908511218432,
+          "PeakTemp_C": 90.61621077756611,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.140432
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.911053935708836,
+          "PeakTemp_C": 90.45162412251513,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.140432
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.62118242968165,
+          "PeakTemp_C": 90.61621077756611,
+          "NEC": 0.7989984478516491,
+          "CSO_us_per_slot": 0.15091200000000002
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.351234611158226,
+          "PeakTemp_C": 90.45162412251513,
+          "NEC": 0.7989984478516491,
+          "CSO_us_per_slot": 0.15091200000000002
+        }
+      }
+    },
+    {
+      "case": "case_37.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 57.02252326424439,
+          "PeakTemp_C": 87.51876491468165,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.1572
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 58.61929916356017,
+          "PeakTemp_C": 87.51876491468165,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.1572
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.45747749273884,
+          "PeakTemp_C": 87.51876491468165,
+          "NEC": 0.8965522403987956,
+          "CSO_us_per_slot": 0.1572
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 61.344263182781475,
+          "PeakTemp_C": 87.51876491468165,
+          "NEC": 0.8965522403987956,
+          "CSO_us_per_slot": 0.1572
+        }
+      }
+    },
+    {
+      "case": "case_38.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 41.786434216420915,
+          "PeakTemp_C": 87.32818332303101,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 41.3745724571828,
+          "PeakTemp_C": 86.74038540802783,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 54.86271956815013,
+          "PeakTemp_C": 84.47206314093015,
+          "NEC": 0.6277014582577355,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 54.5701684724038,
+          "PeakTemp_C": 83.5283063570279,
+          "NEC": 0.6277014582577355,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_39.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.83820371981711,
+          "PeakTemp_C": 93.92444797162051,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.548653810311976,
+          "PeakTemp_C": 91.85703574398005,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.494660052843194,
+          "PeakTemp_C": 87.50200158794156,
+          "NEC": 0.677054412569459,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 57.64568458817114,
+          "PeakTemp_C": 87.53526394381345,
+          "NEC": 0.677054412569459,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_40.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.090105250412,
+          "PeakTemp_C": 92.90700036558663,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.132048
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.59342109946197,
+          "PeakTemp_C": 92.1868202778427,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.132048
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 54.52001580538875,
+          "PeakTemp_C": 92.90700036558663,
+          "NEC": 0.7699132996049577,
+          "CSO_us_per_slot": 0.132048
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.730143543465005,
+          "PeakTemp_C": 92.1868202778427,
+          "NEC": 0.7699132996049577,
+          "CSO_us_per_slot": 0.132048
+        }
+      }
+    },
+    {
+      "case": "case_41.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 40.787715307642166,
+          "PeakTemp_C": 84.90733846773692,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 41.02457048486145,
+          "PeakTemp_C": 84.83842079848458,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.68922663286331,
+          "PeakTemp_C": 84.90733846773692,
+          "NEC": 0.6701775736898888,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 51.38057433405531,
+          "PeakTemp_C": 84.83842079848458,
+          "NEC": 0.6701775736898888,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_42.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 39.34626523548836,
+          "PeakTemp_C": 85.99107145825315,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 39.00040017989076,
+          "PeakTemp_C": 85.16538197630429,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.12534214027585,
+          "PeakTemp_C": 80.04652099732309,
+          "NEC": 0.5554483289935894,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 51.3132204091027,
+          "PeakTemp_C": 80.02524223792294,
+          "NEC": 0.5554483289935894,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_43.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.03806484774766,
+          "PeakTemp_C": 87.39185813216233,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 44.79667312055219,
+          "PeakTemp_C": 84.16531919273673,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 56.48332390958668,
+          "PeakTemp_C": 84.21450221511766,
+          "NEC": 0.6943944158170928,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 55.90759975863834,
+          "PeakTemp_C": 84.16531919273673,
+          "NEC": 0.6943944158170928,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_44.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 44.9197181755962,
+          "PeakTemp_C": 83.59614984096646,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 45.673375351268604,
+          "PeakTemp_C": 83.48978132633083,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 52.322512722235956,
+          "PeakTemp_C": 83.59614984096646,
+          "NEC": 0.7321268586357645,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 53.15685671754651,
+          "PeakTemp_C": 83.48978132633083,
+          "NEC": 0.7321268586357645,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_45.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.4297998956547,
+          "PeakTemp_C": 88.30480780519473,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.8856285570651,
+          "PeakTemp_C": 88.30480780519473,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 51.46046032562392,
+          "PeakTemp_C": 88.30480780519473,
+          "NEC": 0.7514753835893707,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 51.963592012116486,
+          "PeakTemp_C": 88.30480780519473,
+          "NEC": 0.7514753835893707,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_46.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 50.99925427380255,
+          "PeakTemp_C": 89.3740577818421,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.127856
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 49.88337060122425,
+          "PeakTemp_C": 87.32306989186068,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.127856
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 60.94340266758244,
+          "PeakTemp_C": 85.83096778332599,
+          "NEC": 0.7218245796179871,
+          "CSO_us_per_slot": 0.129952
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 59.4970409251699,
+          "PeakTemp_C": 85.818183590232,
+          "NEC": 0.7218245796179871,
+          "CSO_us_per_slot": 0.129952
+        }
+      }
+    },
+    {
+      "case": "case_47.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 42.43122294615814,
+          "PeakTemp_C": 85.00739448679333,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 43.083577175923914,
+          "PeakTemp_C": 85.00739448679333,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 56.18382890718195,
+          "PeakTemp_C": 85.00739448679333,
+          "NEC": 0.6898658876645539,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 57.14230583039865,
+          "PeakTemp_C": 85.00739448679333,
+          "NEC": 0.6898658876645539,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_48.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.53665415403841,
+          "PeakTemp_C": 88.2000826558788,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.05875920949122,
+          "PeakTemp_C": 87.38895737628887,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.12576
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 56.22361285434739,
+          "PeakTemp_C": 88.2000826558788,
+          "NEC": 0.7063429497068807,
+          "CSO_us_per_slot": 0.12576
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 55.55989296673917,
+          "PeakTemp_C": 87.38895737628887,
+          "NEC": 0.7063429497068807,
+          "CSO_us_per_slot": 0.12576
+        }
+      }
+    },
+    {
+      "case": "case_49.json",
+      "modes": {
+        "none (no TA, no EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 48.98730060046832,
+          "PeakTemp_C": 92.35645415988886,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.129952
+        },
+        "TA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 46.54008024917025,
+          "PeakTemp_C": 90.95047825735992,
+          "NEC": 1,
+          "CSO_us_per_slot": 0.129952
+        },
+        "EA only": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 60.05162539958442,
+          "PeakTemp_C": 91.20394860481902,
+          "NEC": 0.7022396667620276,
+          "CSO_us_per_slot": 0.129952
+        },
+        "ETA-HP (TA+EA)": {
+          "frames": 120,
+          "SRat_%": 100,
+          "ATOC_C": 56.39425745722913,
+          "PeakTemp_C": 90.95047825735992,
+          "NEC": 0.7022396667620276,
+          "CSO_us_per_slot": 0.129952
+        }
+      }
+    }
+  ]
+}

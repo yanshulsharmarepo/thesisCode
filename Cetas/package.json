@@ -1,0 +1,11 @@
+{
+  "name": "cetas-node",
+  "version": "1.0.0",
+  "description": "CETAS: Cluster based Energy and Temperature efficient real-time Scheduler (Node.js port)",
+  "scripts": {
+    "generate": "node generate_inputs.js",
+    "example": "node run_cetas.js",
+    "experiments": "node run_experiments.js"
+  },
+  "license": "MIT"
+}
