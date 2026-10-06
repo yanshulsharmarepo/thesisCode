@@ -1,0 +1,12 @@
+{
+  "ambient_temp": 25,
+  "B": 0.003,
+  "c": 1,
+  "context_switch_us": 5.24,
+  "simulation_time_slots": 100000,
+  "beta_range": [
+    1,
+    1.25
+  ],
+  "alpha_max_percent": 10
+}
