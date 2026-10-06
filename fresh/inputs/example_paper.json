@@ -1,0 +1,150 @@
+{
+ "description": "Table 2 of the FRESH paper",
+ "m": 4,
+ "jobs": [
+  {
+   "id": "J1",
+   "benchmark": null,
+   "period": 100,
+   "priority": 8,
+   "c": [
+    5,
+    35,
+    20,
+    50
+   ],
+   "r": [
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "J2",
+   "benchmark": null,
+   "period": 100,
+   "priority": 7,
+   "c": [
+    25,
+    10,
+    20,
+    15
+   ],
+   "r": [
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "J3",
+   "benchmark": null,
+   "period": 150,
+   "priority": 6,
+   "c": [
+    45,
+    30,
+    15,
+    60
+   ],
+   "r": [
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "J4",
+   "benchmark": null,
+   "period": 300,
+   "priority": 5,
+   "c": [
+    45,
+    105,
+    135,
+    60
+   ],
+   "r": [
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "J5",
+   "benchmark": null,
+   "period": 100,
+   "priority": 4,
+   "c": [
+    30,
+    35,
+    25,
+    20
+   ],
+   "r": [
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "J6",
+   "benchmark": null,
+   "period": 100,
+   "priority": 3,
+   "c": [
+    25,
+    20,
+    40,
+    55
+   ],
+   "r": [
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "J7",
+   "benchmark": null,
+   "period": 300,
+   "priority": 2,
+   "c": [
+    150,
+    90,
+    75,
+    120
+   ],
+   "r": [
+    1,
+    1,
+    1,
+    1
+   ]
+  },
+  {
+   "id": "J8",
+   "benchmark": null,
+   "period": 300,
+   "priority": 1,
+   "c": [
+    150,
+    180,
+    105,
+    90
+   ],
+   "r": [
+    1,
+    1,
+    1,
+    1
+   ]
+  }
+ ]
+}

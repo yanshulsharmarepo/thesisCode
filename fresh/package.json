@@ -1,0 +1,2 @@
+{ "name": "fresh-scheduler", "version": "1.0.0", "main": "fresh.js", "bin": { "fresh": "fresh.js" },
+  "scripts": { "gen": "node generate_inputs.js", "example": "node fresh.js inputs/example_paper.json --windows 4 --verbose" } }
